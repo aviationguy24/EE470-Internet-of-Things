@@ -15,8 +15,8 @@
 // Compiler/Platform: Arduino/PlatformIO (ESP8266 NodeMCU-ESP12)
 // Authors:  Osvaldo Ramirez & Aaron John Estrada
 // Versions:
-//   V1 – Initial Version with
-//   V2 - 
+//   V1 – Initial Version with lenghty lines of code
+//   V2 - Shortened Version 
 //
 // File Dependencies:
 //   N/A
