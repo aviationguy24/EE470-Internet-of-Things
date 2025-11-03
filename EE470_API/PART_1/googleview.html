@@ -13,16 +13,6 @@
      which logs the readings into a connected Google Sheet.
      The dashboard uses an embedded public Google Sheet or chart
      (via iframe) to display real-time sensor data.
-
-     Functional Overview:
-       • Displays embedded Google Sheet (pubhtml or chart view)
-       • Offers manual and automatic refresh controls
-       • Includes links for test data upload and direct sheet access
-       • Styled with USAF-inspired colors and typography
-
-     Integration:
-       • ESP → Google Apps Script → Google Sheet → Dashboard iframe
-       • Optionally linked from /EE470API/menupage.html
    =============================================================== -->
 
 <!doctype html>
@@ -61,9 +51,6 @@
         var(--af-ink);
     }
 
-    /* ===============================
-       HEADER (Air Force Banner)
-       =============================== */
     .banner{
       background:linear-gradient(90deg, var(--af-blue), var(--af-mid));
       border-bottom:3px solid var(--af-silver);
